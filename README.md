@@ -1,46 +1,56 @@
-# 🏡 Predição de Valores de Casas com Machine Learning
+# 🏡 House Price Prediction Using Machine Learning
 
-Este projeto tem como objetivo prever o valor de casas com base em dados históricos utilizando técnicas de **Machine Learning**. O projeto faz uso de bibliotecas como **Pandas**, **NumPy** e **Scikit-learn** para análise, pré-processamento e modelagem dos dados.
+This project focuses on predicting house prices based on historical housing data by applying **Machine Learning** techniques. It utilizes libraries such as **Pandas**, **NumPy**, and **Scikit-learn** for data processing, analysis, and modeling.
 
-## 📌 Objetivo
+---
 
-Desenvolver um modelo preditivo capaz de estimar o preço de uma casa com base em características como número de quartos, área construída, localização, entre outros fatores.
+## 📌 **Project Objective**
 
-## 🛠️ Tecnologias e Ferramentas Utilizadas
+To develop a predictive model capable of estimating the **price of a house** based on features such as:
 
-- **Python 3.x**
-- **Pandas**: manipulação e análise de dados
-- **NumPy**: operações matemáticas e vetoriais
-- **Scikit-learn**: modelos de machine learning e ferramentas de pré-processamento
-- (opcional) **Matplotlib / Seaborn**: visualizações gráficas
+- Number of bedrooms  
+- Built area (square footage)  
+- Location  
+- And other relevant attributes
 
-## 🧠 Metodologia
+---
 
-1. **Coleta e limpeza dos dados**  
-   Leitura do dataset e tratamento de valores ausentes ou inconsistentes.
+## 🛠️ **Technologies and Tools**
 
-2. **Análise exploratória dos dados (EDA)**  
-   Estudo das correlações entre variáveis e visualizações para insights iniciais.
+- **Python 3.x**  
+- **Pandas** – Data manipulation and analysis  
+- **NumPy** – Mathematical and vector operations  
+- **Scikit-learn** – Machine learning models and preprocessing  
+- **Matplotlib** / **Seaborn** – Data visualization  
 
-3. **Pré-processamento**  
-   - Normalização/Escalonamento
-   - Codificação de variáveis categóricas
-   - Separação entre features e target
+---
 
-4. **Divisão dos dados**  
-   Separação entre conjuntos de treino e teste (ex: 80/20).
+## 🧠 **Methodology**
 
-5. **Criação e avaliação de modelos**  
-   Utilização de algoritmos como:
-   - Regressão Linear
-   - Random Forest
-   - Gradient Boosting
+### 1. **Data Collection and Cleaning**
+- Importing the dataset
+- Handling missing, null, or inconsistent values
 
-6. **Ajuste de hiperparâmetros** (opcional)  
-   Uso de GridSearchCV ou RandomizedSearchCV.
+### 2. **Exploratory Data Analysis (EDA)**
+- Statistical summaries of the dataset
+- Visualizations to identify trends and outliers
+- Analyzing correlations between features
 
-7. **Avaliação final**  
-   Métricas como MAE, MSE e R².
+### 3. **Data Preprocessing**
+- **Feature scaling / normalization**  
+- **Encoding categorical variables**  
+- Splitting into features (X) and target variable (y)
 
-## 📁 Estrutura do Projeto
+### 4. **Train-Test Split**
+- Dividing the data into training and testing sets.
 
+### 5. **Model Building**
+Implemented models include:
+- **Linear Regression**
+- **Random Forest Regressor**
+
+### 6. **Model Evaluation**
+Evaluated using performance metrics such as:
+- **MAE** (Mean Absolute Error)  
+- **MSE** (Mean Squared Error)  
+- **R² Score** (Coefficient of Determination)
